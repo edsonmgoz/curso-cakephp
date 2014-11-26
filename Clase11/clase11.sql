@@ -1,0 +1,2 @@
+alter table platillos add foto varchar(255) CHARACTER SET utf8 COLLATE utf8_spanish_ci NOT NULL after precio;
+alter table platillos add foto_dir varchar(255) CHARACTER SET utf8 COLLATE utf8_spanish_ci NOT NULL after foto;
